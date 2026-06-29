@@ -1,0 +1,43 @@
+name: veradata
+displayName: VeraData — Verified Latin American Data
+description: |
+  Verified Latin American data for autonomous AI agents via x402 micropayments.
+  Sanctions screening (OFAC SDN + SARLAFT Colombia + CNBV Mexico + COAF Brazil + UAF Chile),
+  entity enrichment from official registries (RUES/CNPJ/RFC), real-time central bank rates
+  (DTF/TIIE/Selic/TRM/UF for CO/MX/BR/CL/PE), business registry lookup, and AI-powered
+  market intelligence. EU AI Act Art.13 compliant audit trails. No API key required —
+  any agent with a USDC wallet can call it via x402 on Base or Solana.
+
+version: 1.0.0
+license: MIT
+
+server:
+  type: http
+  url: https://api.veradata.dev/mcp
+
+tools:
+  - name: vera_rates
+    description: Real-time central bank rates for CO, MX, BR, CL, PE. DTF, TIIE, Selic, TRM, UF. $0.02 USDC via x402.
+  - name: vera_sanctions
+    description: Sanctions screening — OFAC SDN + SARLAFT CO + CNBV MX + COAF BR + UAF CL. EU AI Act Art.13 audit hash. $0.05 USDC via x402.
+  - name: vera_entity
+    description: Company enrichment from RUES Colombia, CNPJ Brazil, RFC Mexico. $0.03 USDC via x402.
+  - name: vera_context
+    description: AI-powered LATAM market intelligence — market size, key players, regulatory framework. $0.10 USDC via x402.
+
+links:
+  - type: docs
+    url: https://api.veradata.dev/docs
+  - type: llms
+    url: https://api.veradata.dev/llms.txt
+
+tags:
+  - latam
+  - compliance
+  - sanctions
+  - financial-data
+  - x402
+  - eu-ai-act
+  - colombia
+  - brazil
+  - mexico
