@@ -4,6 +4,11 @@
 >
 > Built by the creator of [Intelica](https://api.intelica.dev) and [TrustBoost](https://api.trustboost.dev).
 
+> **API:** `https://api.veradata.dev` | **Version:** v1.6.0 | **Countries:** CO, MX, BR, CL, PE, AR
+>
+> This repo contains the public interface, MCP server definitions, and developer kit.
+> The core API is deployed at [api.veradata.dev](https://api.veradata.dev).
+
 
 ---
 
@@ -541,7 +546,7 @@ El stack, el proceso de deployment, y el playbook de discovery están probados e
 
 ```bash
 # Clonar y configurar
-git clone https://github.com/teodorofodocrispin-cmyk/veradata
+git clone https://github.com/teodorofodocrispin-cmyk/veradata-public-public
 cd veradata
 pip install fastapi uvicorn httpx supabase pyjwt cryptography anthropic
 
