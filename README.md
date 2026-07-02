@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="https://api.veradata.dev/static/logo.png" alt="VeraData" width="220">
+</p>
+
+<p align="center">
+  <a href="https://api.veradata.dev/demo"><b>🔍 Try the live demo — no account needed</b></a>
+</p>
+
 # VeraData — Verified Latin American Data for Autonomous AI Agents
 
 > **M2M-native. x402 payments. Zero accounts. Zero API keys. Latin America first.**
